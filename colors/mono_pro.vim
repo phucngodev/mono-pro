@@ -20,14 +20,14 @@ hi CursorColumn ctermfg = NONE ctermbg=59 cterm=NONE
 hi ColorColumn ctermfg  = NONE ctermbg=59 cterm=NONE
 hi LineNr ctermfg       = 246 ctermbg=59 cterm=NONE
 hi VertSplit ctermfg    = darkgrey ctermbg=NONE cterm=bold
-hi MatchParen ctermfg   = 204 ctermbg=NONE cterm=underline
+hi MatchParen ctermfg   = 204 ctermbg=67 cterm=NONE
 hi StatusLine ctermfg   = 231 ctermbg=59 cterm=bold
 hi StatusLineNC ctermfg = 231 ctermbg=59 cterm=NONE
 hi Pmenu ctermfg        = 255 ctermbg=239 cterm=NONE
 hi PmenuSel ctermfg     = NONE ctermbg=59 cterm=NONE
 hi IncSearch ctermfg    = 236 ctermbg=221 cterm=NONE
 hi Search ctermfg       = 254 ctermbg=67 cterm=BOLD
-hi Directory ctermfg    = 15 ctermbg=NONE cterm=NONE
+hi Directory ctermfg    = 15 ctermbg=NONE cterm=BOLD
 hi Folded ctermfg       = 189 ctermbg=60 cterm=NONE
 hi Normal ctermfg       = 15 ctermbg=NONE cterm=NONE
 hi Boolean ctermfg      = 147 ctermbg=NONE cterm=NONE
@@ -58,6 +58,6 @@ hi StorageClass ctermfg = 116 ctermbg=NONE cterm=NONE
 hi String ctermfg       = 221 ctermbg=NONE cterm=NONE
 hi Tag ctermfg          = 204 ctermbg=NONE cterm=NONE
 hi Title ctermfg        = 231 ctermbg=NONE cterm=bold
-hi Todo ctermfg         = 231 ctermbg=NONE cterm=inverse,bold
+hi Todo ctermfg         = 231 ctermbg=NONE cterm=bold
 hi Type ctermfg         = 116 ctermbg=NONE cterm=NONE
 hi Underlined ctermfg   = NONE ctermbg=NONE cterm=underline
